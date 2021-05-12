@@ -11,14 +11,14 @@ This webinar assumes you have selected one of the many models and fine tuned it 
 
 
 
-##Workspace
+## Workspace
 main jupyter notebook from the demo has code to explore. 
 Also check out the notebooks in the transformers git repo that get's cloned automatically when you start a workspace. see the prerun.sh for details on automating what happens when a workspace launches. 
 
-##Flow
+## Flow
 Automate deployment and use data drift to trigger updates to your bot
 
-##Deployment
+## Deployment
 Deployment is done in the serving section. 
 serve.py will deploy the question answering bot 
 
@@ -35,7 +35,7 @@ curl -X POST \
 
 
 
-##Application
+## Application
 
 app.py and app2.py provide a way of creating a chat interface
 
@@ -50,19 +50,19 @@ app.py and app2.py provide a way of creating a chat interface
 
 
 
-##References
+## References
 ### transformer fine tunning
 https://huggingface.co/transformers/custom_datasets.html#fine-tuning-with-native-pytorch-tensorflow
 
-###pytorch tutorial
+### pytorch tutorial
 https://pytorch.org/tutorials/intermediate/dynamic_quantization_bert_tutorial.html
 
-###huggingface transformers github
+### huggingface transformers github
 https://github.com/huggingface/transformers
 
-###book corpus
+### book corpus
 https://github.com/huggingface/datasets/tree/master/datasets/bookcorpus
 
-###install transformers from source 
+### install transformers from source 
 https://huggingface.co/transformers/installation.html#installing-from-source
 
