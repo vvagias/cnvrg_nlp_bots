@@ -1,0 +1,28 @@
+---
+flow: automate
+recurring: 
+tasks:
+- title: bert
+  top: 133
+  left: 235
+  description: 
+  conditions: []
+  type: data
+  dataset: bert
+  data_commit: 
+  data_query: 
+  use_cached: true
+  sync_type: sync_all
+- title: bert qa bot
+  top: 133
+  left: 720
+  description: 
+  conditions: []
+  type: deploy
+  confirmation: false
+  endpoint_id: xld8pojmcgej8tesugw8
+  endpoint_title: bert-qa-bot
+relations:
+- from: bert
+  to: bert qa bot
+
