@@ -9,6 +9,8 @@ The spirit of BERT is to pre-train the language representations and then to fine
 
 This webinar assumes you have selected one of the many models and fine tuned it based on your data. 
 
+#TODO
+-add screenshots and video of webinar. 
 
 
 ## Workspace
