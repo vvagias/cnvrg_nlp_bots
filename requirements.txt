@@ -1,0 +1,9 @@
+sklearn
+transformers
+datasets
+rouge_score
+torch
+torchvision
+ipywidgets
+dash
+tweepy
